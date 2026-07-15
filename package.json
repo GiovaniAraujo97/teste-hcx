@@ -1,0 +1,16 @@
+{
+  "name": "hcxpert-challenge",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "cypress run",
+    "test:headed": "cypress run --headed",
+    "report": "node scripts/generate-report.mjs"
+  },
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^20.0.0",
+    "@cypress/browserify-preprocessor": "^3.0.2",
+    "cypress": "^13.2.0",
+    "dotenv": "^16.0.1"
+  }
+}
